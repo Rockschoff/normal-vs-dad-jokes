@@ -6,9 +6,21 @@
 body {
   margin: 0px;
 }
+.navigation{
+  height: 7vh;
+  width : 100vw;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.navigation > p{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 30px;
+  text-decoration: underline;
+}
 .banner {
-  height: 100vh;
+  height: 93vh;
   width: 100vw;
   background-color: grey;
   display: flex;
@@ -31,4 +43,11 @@ body {
   align-items: center;
   height: 100%;
   flex-direction: column;
+  
 }
+
+.bounding-box > p{
+  max-width: 75%;
+}
+
+

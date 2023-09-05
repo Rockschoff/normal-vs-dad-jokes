@@ -9,11 +9,15 @@ export default function Jokes(props) {
     getJoke(props, setJoke);
   }, []);
 
+  async function HandleGetJoke(){
+    getJoke(props , setJoke)
+  }
+
   return (
     <div className="bounding-box">
       <h1>{props.type == "dad_jokes" ? "DAD JOKES" : "JOKES"}</h1>
       <p>{joke}</p>
-      <Button variant="dark" size="md">
+      <Button variant="dark" size="md" onClick={HandleGetJoke}>
         New Joke
       </Button>
     </div>
