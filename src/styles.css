@@ -1,0 +1,34 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+body {
+  margin: 0px;
+}
+
+.banner {
+  height: 100vh;
+  width: 100vw;
+  background-color: grey;
+  display: flex;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  background-color: lavender;
+}
+.right {
+  height: 100%;
+  width: 50%;
+  background-color: lavenderblush;
+}
+
+.bounding-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
